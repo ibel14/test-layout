@@ -12,10 +12,21 @@ body {
     box-sizing: border-box;
 }
 
-.header {
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container {
     max-width: 1050px;
     margin: 0 auto;
+    background-color:#FFDB05;
 }
+
+/*** HEADER ***/
 
 .logo-text {
     float: left;
@@ -52,7 +63,39 @@ body {
 }
 
 nav {
-    background-color:#FFDB05;
     height: 50px;
     padding: 15px;
+}
+
+/* MAIN CONTENT */
+
+.title-contents {
+    width: 1000px;
+    padding-left: 50px;
+}
+
+.lil-title {
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+.main-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding-left: 30px;
+}
+
+.table ul {
+    list-style: none;
+}
+
+.table-item {
+    width: 500px;
+    display: flex;
+    padding: 30px;
 }
