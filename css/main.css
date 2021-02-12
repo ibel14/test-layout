@@ -149,10 +149,10 @@ Slider
 ****************/
 
 .wrapper {
-	height: 350px;
-	margin: 100px auto 0;
-	position: relative;
-	width: 700px;
+    height: 350px;
+    margin: 100px auto 0;
+    position: relative;
+    width: 700px;
 }
 
 .slider {
@@ -178,7 +178,7 @@ Slider
 }
 
 .slide1 { 
-    background-image: url("../img/img1.jpg"); 
+    background-image: url(../img/img1.jpg); 
 }
 
 .slide2 { 
